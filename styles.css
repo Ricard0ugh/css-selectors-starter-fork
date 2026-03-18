@@ -419,6 +419,7 @@ nav a:hover
     select the h2 in the third section using the class name selector
 */
 /* ----- */
+.third-h2
 {
     padding: 12px 0;
     background-color: var(--dv-fuchsia);
@@ -431,6 +432,7 @@ nav a:hover
     select all of the inputs, labels, select dropdowns and text areas on the page by tag name
 */
 /* ----- */
+input, label, select, textarea
 {
     display: block;
     width: 95%;
@@ -445,6 +447,7 @@ nav a:hover
     select all of the inputs and selects by tag name
 */
 /* ----- */
+input, select
 {
     height: 2rem;
     border: 2px solid var(--dk-gray);
@@ -456,6 +459,7 @@ nav a:hover
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
+input:focus
 {
     outline: 4px solid var(--orange);
     outline-offset: 2px;
@@ -468,6 +472,7 @@ nav a:hover
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
+input:focus
 {
     outline-color: var(--dv-dk-blue);
 }
@@ -478,6 +483,7 @@ nav a:hover
     select the labels in the form using the tag name/element selector
 */
 /* ----- */
+label
 {
     font-size: 1.25rem;
     margin-top: 16px;
@@ -489,6 +495,7 @@ nav a:hover
     select the spans in the form using the class name selector
 */
 /* ----- */
+.required
 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -502,6 +509,7 @@ nav a:hover
     select all of the submit buttons (by tag name/type attribute) on the page
 */
 /* ----- */
+input[type="submit"]
 {
     display: block;
     margin: 32px auto 16px;
@@ -525,6 +533,7 @@ nav a:hover
     select all of the submit buttons on hover (by tag name/type attribute name) on the page
 */
 /* ----- */
+input[type="submit"]:hover
 {
     box-shadow: var(--box-shadow-sm);
     color: var(--purple);
@@ -537,6 +546,7 @@ nav a:hover
     select all of the submit buttons on focus (by tag name/type attribute/pseudo-class) on the page
 */
 /* ----- */
+input[type="submit"]:focus
 {
     box-shadow: var(--box-shadow-sm);
     outline: 4px solid var(--dv-dk-blue);
@@ -552,6 +562,7 @@ nav a:hover
     select the h2 in the list styling section using the class name selector
 */
 /* ----- */
+.blue-text
 {
     color: var(--blue);
 }
@@ -562,6 +573,7 @@ nav a:hover
     select the unordered list in the list styling container using the id and tag name selectors
 */
 /* ----- */
+#list ul
 {
     display: block;
     width: fit-content;
@@ -574,6 +586,7 @@ nav a:hover
     select all of the list items in the list styling container using the ID and tag name selectors
 */
 /* ----- */
+#list li
 {
     font-size: 1.25rem;
     line-height: 1.35;
@@ -587,6 +600,7 @@ nav a:hover
     select the bullets on the unordered list in the list styling section using the tag name and pseudo-class selectors
 */
 /* ----- */
+#list li::marker
 {
     font-size: 3rem;
     content: "\2730";
@@ -598,6 +612,7 @@ nav a:hover
     select the first list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
+#list li:first-child
 {
     color: var(--purple);
 }
@@ -608,6 +623,7 @@ nav a:hover
     select the last list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
+#list li:last-child
 {
     color: var(--dv-lt-blue);
 }
@@ -621,6 +637,7 @@ nav a:hover
     select all of the divs in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
+#more div
 {
     display: flex;
     justify-content: center;
@@ -633,6 +650,7 @@ nav a:hover
     select the first div in the more styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
+  #more > div
 {
     width: 300px;
     height: 300px;
@@ -646,6 +664,7 @@ nav a:hover
     select the second div in the more styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
+#more div div
 {
     width: 250px;
     height: 250px;
@@ -658,6 +677,7 @@ nav a:hover
     select the third div in the more styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
+#more .third
 {
     width: 200px;
     height: 200px;
@@ -670,6 +690,7 @@ nav a:hover
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
+#more .third div
 {
     width: 150px;
     height: 150px;
@@ -682,6 +703,7 @@ nav a:hover
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
+#more .third .inner
 {
     width: 100px;
     height: 100px;
