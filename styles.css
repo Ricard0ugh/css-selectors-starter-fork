@@ -952,6 +952,7 @@ tfoot
     select the pseudo-elements section using the ID selector
 */
 /* ----- */
+#pseudo-els
 {
     position: relative;
 }
@@ -962,6 +963,7 @@ tfoot
     select the div in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
+#pseudo-els div
 {
     width: 275px;
     height: 275px;
@@ -977,6 +979,7 @@ tfoot
     select the div's before element in the pseudo-elements section using the ID, child/descendant, pseudo-element, and tag name selectors
 */
 /* ----- */
+#pseudo-els div::before
 {
     content: "\2730";
     padding: 12px 24px;
@@ -997,6 +1000,7 @@ tfoot
     select the image in the pseudo-elements section using the ID, child/descendant, and tag name selectors
 */
 /* ----- */
+#pseudo-els img
 {
     width: 200px;
     height: 200px;
