@@ -755,6 +755,12 @@ input[type="submit"]:focus
     box-shadow: var(--box-shadow-sm);
 }
 
+#software h3
+{
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
 /* ----- */
 /* 
     TO DO:
