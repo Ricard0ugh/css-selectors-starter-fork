@@ -870,6 +870,7 @@ tfoot
     select all of the divs in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
+#borders div
 {
     display: flex;
     justify-content: center;
@@ -882,6 +883,7 @@ tfoot
     select the first div in the border styling section using the ID, tag name and direct descendant selectors
   */
   /* ----- */
+#borders > div
 {
     width: 300px;
     height: 300px;
@@ -895,6 +897,7 @@ tfoot
     select the second div in the border styling section using the ID, descendant, and tag name selectors
 */
 /* ----- */
+#borders div div
 {
     width: 250px;
     height: 250px;
@@ -907,6 +910,7 @@ tfoot
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
+#borders .dashed
 {
     width: 200px;
     height: 200px;
@@ -919,6 +923,7 @@ tfoot
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
+#borders .dashed div
 {
     width: 150px;
     height: 150px;
@@ -931,6 +936,7 @@ tfoot
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
+#borders .dashed div div
 {
     width: 100px;
     height: 100px;
