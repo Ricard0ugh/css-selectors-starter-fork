@@ -719,6 +719,7 @@ input[type="submit"]:focus
     select the section with the ID of software by its ID 
 */
 /* ----- */
+#software
 {
     margin-top: 16px;
     display: grid;
@@ -732,6 +733,7 @@ input[type="submit"]:focus
     select the links in the software section using the ID, tag name, and child/descendant selector
 */
 /* ----- */
+#software a
 {
     width: 100px;
     height: auto;
@@ -747,6 +749,7 @@ input[type="submit"]:focus
     select the links in the software section on hover using the ID, tag name, child/descendant selector, and pseudo-class selector
 */
 /* ----- */
+#software a:hover
 {
     background-color: var(--dk-gray);
     box-shadow: var(--box-shadow-sm);
@@ -758,6 +761,7 @@ input[type="submit"]:focus
     select the SVGs in the software section using the ID, tag name, and descendant selectors
 */
 /* ----- */
+#software svg
 {
     stroke: var(--dk-gray);
 }
@@ -781,6 +785,7 @@ input[type="submit"]:focus
     select the table in the table styles section using the element/tag name selector
 */
 /* ----- */
+table
 { 
     border-collapse: collapse;
     width: 100%;
@@ -792,6 +797,7 @@ input[type="submit"]:focus
     select the caption in the table styles section using the element/tag name selector
 */
 /* ----- */
+caption
 { 
     font-weight: bold;
     font-size: 1.25rem;
@@ -804,6 +810,7 @@ input[type="submit"]:focus
     select the table header cells in the table styles section using the element/tag name, descendant, and ID selectors
 */
 /* ----- */
+#table th
 { 
     background-color: var(--blue);
     color: var(--white);
@@ -815,6 +822,7 @@ input[type="submit"]:focus
     select the odd table rows in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
+tbody tr:nth-child(odd)
 { 
     background-color: var(--dv-orange);
 }
@@ -825,6 +833,7 @@ input[type="submit"]:focus
     select the first column in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
+tbody td:first-child
 { 
     font-weight: bold;
 }
@@ -835,6 +844,7 @@ input[type="submit"]:focus
     select the table heading cells (th) and the table data cells in the table styles section using the element/tag name and multiple element selectors
 */
 /* ----- */
+th, td
 { 
     border: 1px solid var(--dk-gray);
     padding: 4px;
@@ -846,6 +856,7 @@ input[type="submit"]:focus
     select the table footer in the table styles section using the element/tag name selector
 */
 /* ----- */
+tfoot
 { 
     font-weight: bold;
 }
